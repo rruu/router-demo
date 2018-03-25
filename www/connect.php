@@ -2,7 +2,7 @@
 //credentials for connecting to your database
 $host = 'db'; //database host
 $user = 'root'; //database username
-$pass = 'test'; //database password
+$pass = '123456'; //database password
 $dbname = 'users'; //database name
 
 // Create connection
