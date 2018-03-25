@@ -11,4 +11,4 @@ ALTER TABLE `users`
 ALTER TABLE `users`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
-INSERT INTO users (`Username`, `Password`) VALUES (('admin'), ('7ef6156c32f427d713144f67e2ef14d2'));
+INSERT INTO users (`Username`, `Password`) VALUES (('admin'), ('$2y$10$xGixWDLFsub0bTsXMgpey.ghX3DMx62B.I76pNMsF22wzsTsSqpqW'));
