@@ -1,8 +1,8 @@
 <?php
 //credentials for connecting to your database
-$host = 'localhost'; //database host
+$host = 'db'; //database host
 $user = 'root'; //database username
-$pass = '123456'; //database password
+$pass = 'test'; //database password
 $dbname = 'users'; //database name
 
 // Create connection
