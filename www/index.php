@@ -17,7 +17,7 @@
 			<form class="form-horizontal" action='login-user.php' method="POST">
 			  <fieldset>
 			    <div id="legend">
-			      <legend class="">Login</legend>
+			      <legend class="">Router Demo login</legend>
 			    </div>
 			    <div class="control-group">
 			      <!-- Username -->

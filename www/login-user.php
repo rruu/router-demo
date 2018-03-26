@@ -26,7 +26,7 @@ elseif (strlen($post_password) === 0) {
 //checks if the username is allowed (only letters and numbers)
 elseif (!ctype_alnum($post_username)) {
     echo "<p>Username must only contain letters and numbers.</p>";
-    echo "<a href='login.php'>Try again</a>";
+    echo "<a href='index.php'>Try again</a>";
 }
 else {
     //prepare stae,emt for grabbing password hash that matches $post_username
@@ -50,7 +50,7 @@ else {
         $row = $result->fetch_array(MYSQLI_NUM);
         if (!isset($row[0])) {
             echo "<p>Invalid password or username.</p>";
-            echo "<a href='login.php'>Try again</a>";
+            echo "<a href='index.php'>Try again</a>";
         }
         else {
             if (password_verify($post_password, $row[0])) {
@@ -60,7 +60,7 @@ else {
             }
             else {
                 echo "<p>Invalid password or username.</p>";
-                echo "<a href='login.php'>Try again</a>";
+                echo "<a href='index.php'>Try again</a>";
             }
 
         }
