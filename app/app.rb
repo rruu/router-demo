@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'digest'
 
-#class App < Sinatra::Base
+class App < Sinatra::Base
   get '/' do
     erb :index
   end
@@ -14,9 +14,8 @@ require 'digest'
     else
         erb :deny
     end
-
-
   end
+end
 
 
 
